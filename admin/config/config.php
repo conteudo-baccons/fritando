@@ -9,6 +9,5 @@ define("TITLE", "Painel Administrativo v1");
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_SCHEMA", "blog_phpiando");
-define("DB_PORT", "3310");
+define("DB_SCHEMA", "conteudo_baccons");
 ?>

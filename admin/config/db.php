@@ -1,9 +1,9 @@
 <?php 
-include_once 'config.php';
+include_once './config.php';
 
-$db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_SCHEMA, DB_PORT);
+$db = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_SCHEMA);
 
-if($db->connect_errno){
-    echo "Erro Banco de dados: {$db->connect_error}";    
+if($db ->connect_errno) {
+    echo "Erro no banco de dados: {$db ->connect_error}";
     exit();
 }
